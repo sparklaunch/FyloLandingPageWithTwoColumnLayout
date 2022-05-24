@@ -12,14 +12,15 @@ struct ContentView: View {
         ZStack {
             Color.white
             ScrollView {
-                VStack {
+                VStack(spacing: 100) {
                     TopNavigationView()
-                    Spacer()
-                        .frame(height: 50)
                     VStack {
                         HeroView()
                         HeroTitleView()
                         HeroFormView()
+                    }
+                    VStack {
+                        FeatureIllustrationView()
                     }
                 }
             }

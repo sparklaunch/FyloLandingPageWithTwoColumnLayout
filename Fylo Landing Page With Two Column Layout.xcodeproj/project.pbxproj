@@ -22,6 +22,7 @@
 		90E89BEA283C6F1F00BD2505 /* HeroTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BE9283C6F1F00BD2505 /* HeroTitleView.swift */; };
 		90E89BEC283C6FDF00BD2505 /* HeroFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BEB283C6FDF00BD2505 /* HeroFormView.swift */; };
 		90E89BEF283C70C600BD2505 /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BEE283C70C600BD2505 /* CustomTextFieldStyle.swift */; };
+		90E89BF1283C735900BD2505 /* FeatureIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BF0283C735900BD2505 /* FeatureIllustrationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		90E89BE9283C6F1F00BD2505 /* HeroTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTitleView.swift; sourceTree = "<group>"; };
 		90E89BEB283C6FDF00BD2505 /* HeroFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroFormView.swift; sourceTree = "<group>"; };
 		90E89BEE283C70C600BD2505 /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
+		90E89BF0283C735900BD2505 /* FeatureIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureIllustrationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				90E89BE7283C6EA500BD2505 /* HeroView.swift */,
 				90E89BE9283C6F1F00BD2505 /* HeroTitleView.swift */,
 				90E89BEB283C6FDF00BD2505 /* HeroFormView.swift */,
+				90E89BF0283C735900BD2505 /* FeatureIllustrationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90E89BCE283C681A00BD2505 /* ContentView.swift in Sources */,
+				90E89BF1283C735900BD2505 /* FeatureIllustrationView.swift in Sources */,
 				90E89BEF283C70C600BD2505 /* CustomTextFieldStyle.swift in Sources */,
 				90E89BE6283C6D5A00BD2505 /* NavigationMenuItemView.swift in Sources */,
 				90E89BE8283C6EA500BD2505 /* HeroView.swift in Sources */,
