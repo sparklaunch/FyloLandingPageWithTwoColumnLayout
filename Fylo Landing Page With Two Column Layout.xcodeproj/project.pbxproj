@@ -13,6 +13,11 @@
 		90E89BCF283C681A00BD2505 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BBD283C681800BD2505 /* ContentView.swift */; };
 		90E89BD0283C681A00BD2505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E89BBE283C681A00BD2505 /* Assets.xcassets */; };
 		90E89BD1283C681A00BD2505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E89BBE283C681A00BD2505 /* Assets.xcassets */; };
+		90E89BDE283C6B8200BD2505 /* TopNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BDD283C6B8200BD2505 /* TopNavigationView.swift */; };
+		90E89BE0283C6BEB00BD2505 /* NavigationMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BDF283C6BEB00BD2505 /* NavigationMenuView.swift */; };
+		90E89BE2283C6C0900BD2505 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BE1283C6C0900BD2505 /* MenuItem.swift */; };
+		90E89BE4283C6C8D00BD2505 /* MenuItemStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BE3283C6C8D00BD2505 /* MenuItemStorage.swift */; };
+		90E89BE6283C6D5A00BD2505 /* NavigationMenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BE5283C6D5A00BD2505 /* NavigationMenuItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		90E89BC3283C681A00BD2505 /* Fylo Landing Page With Two Column Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fylo Landing Page With Two Column Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E89BC9283C681A00BD2505 /* Fylo Landing Page With Two Column Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fylo Landing Page With Two Column Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E89BCB283C681A00BD2505 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		90E89BDD283C6B8200BD2505 /* TopNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationView.swift; sourceTree = "<group>"; };
+		90E89BDF283C6BEB00BD2505 /* NavigationMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMenuView.swift; sourceTree = "<group>"; };
+		90E89BE1283C6C0900BD2505 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		90E89BE3283C6C8D00BD2505 /* MenuItemStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemStorage.swift; sourceTree = "<group>"; };
+		90E89BE5283C6D5A00BD2505 /* NavigationMenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMenuItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				90E89BBD283C681800BD2505 /* ContentView.swift */,
+				90E89BDD283C6B8200BD2505 /* TopNavigationView.swift */,
+				90E89BDF283C6BEB00BD2505 /* NavigationMenuView.swift */,
+				90E89BE5283C6D5A00BD2505 /* NavigationMenuItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -98,6 +111,8 @@
 		90E89BDC283C683F00BD2505 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				90E89BE1283C6C0900BD2505 /* MenuItem.swift */,
+				90E89BE3283C6C8D00BD2505 /* MenuItemStorage.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,7 +216,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				90E89BCE283C681A00BD2505 /* ContentView.swift in Sources */,
+				90E89BE6283C6D5A00BD2505 /* NavigationMenuItemView.swift in Sources */,
+				90E89BE4283C6C8D00BD2505 /* MenuItemStorage.swift in Sources */,
 				90E89BCC283C681A00BD2505 /* FyloLandingPageWithTwoColumnLayoutApp.swift in Sources */,
+				90E89BDE283C6B8200BD2505 /* TopNavigationView.swift in Sources */,
+				90E89BE0283C6BEB00BD2505 /* NavigationMenuView.swift in Sources */,
+				90E89BE2283C6C0900BD2505 /* MenuItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

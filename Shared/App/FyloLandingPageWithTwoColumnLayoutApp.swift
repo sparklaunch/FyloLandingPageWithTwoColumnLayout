@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct FyloLandingPageWithTwoColumnLayoutApp: App {
+    @StateObject private var menuItemStorage: MenuItemStorage = .init()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(menuItemStorage)
         }
     }
 }
