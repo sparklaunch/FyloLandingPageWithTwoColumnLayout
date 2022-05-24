@@ -29,6 +29,7 @@
 		90E89BF9283C828A00BD2505 /* EarlyAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BF8283C828A00BD2505 /* EarlyAccessView.swift */; };
 		90E89BFB283C855E00BD2505 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BFA283C855E00BD2505 /* FooterView.swift */; };
 		90E89BFD283C859A00BD2505 /* FooterLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BFC283C859A00BD2505 /* FooterLogoView.swift */; };
+		90E89BFF283C865100BD2505 /* FooterContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BFE283C865100BD2505 /* FooterContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		90E89BF8283C828A00BD2505 /* EarlyAccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlyAccessView.swift; sourceTree = "<group>"; };
 		90E89BFA283C855E00BD2505 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		90E89BFC283C859A00BD2505 /* FooterLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLogoView.swift; sourceTree = "<group>"; };
+		90E89BFE283C865100BD2505 /* FooterContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				90E89BF8283C828A00BD2505 /* EarlyAccessView.swift */,
 				90E89BFA283C855E00BD2505 /* FooterView.swift */,
 				90E89BFC283C859A00BD2505 /* FooterLogoView.swift */,
+				90E89BFE283C865100BD2505 /* FooterContactView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				90E89BE2283C6C0900BD2505 /* MenuItem.swift in Sources */,
 				90E89BFD283C859A00BD2505 /* FooterLogoView.swift in Sources */,
 				90E89BFB283C855E00BD2505 /* FooterView.swift in Sources */,
+				90E89BFF283C865100BD2505 /* FooterContactView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
