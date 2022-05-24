@@ -17,7 +17,7 @@ struct ContentView: View {
                     VStack {
                         HeroIllustrationView()
                         HeroTitleView()
-                        HeroFormView()
+                        HeroFormView(buttonText: "Get Started")
                     }
                     VStack {
                         FeatureIllustrationView()
@@ -25,6 +25,7 @@ struct ContentView: View {
                         FeatureLinkView()
                         TestimonialView()
                     }
+                    EarlyAccessView()
                 }
             }
         }

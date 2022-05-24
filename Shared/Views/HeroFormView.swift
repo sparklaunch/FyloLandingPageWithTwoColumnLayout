@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HeroFormView: View {
     @State private var email: String = ""
+    let buttonText: String
     var body: some View {
         VStack(spacing: 16) {
             TextField("Enter your email…", text: $email)
@@ -20,7 +21,7 @@ struct HeroFormView: View {
             } label: {
                 ZStack {
                     Color("ButtonColor")
-                    Text("Get Started")
+                    Text(buttonText)
                         .font(.title3.bold())
                         .foregroundColor(.white)
                         .padding()
@@ -36,7 +37,7 @@ struct HeroFormView: View {
 
 struct HeroFormView_Previews: PreviewProvider {
     static var previews: some View {
-        HeroFormView()
+        HeroFormView(buttonText: "Get Started")
             .previewLayout(.sizeThatFits)
     }
 }

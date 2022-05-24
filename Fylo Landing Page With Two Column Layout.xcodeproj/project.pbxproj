@@ -26,6 +26,7 @@
 		90E89BF3283C73F000BD2505 /* FeatureTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BF2283C73F000BD2505 /* FeatureTitleView.swift */; };
 		90E89BF5283C7E4D00BD2505 /* FeatureLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BF4283C7E4D00BD2505 /* FeatureLinkView.swift */; };
 		90E89BF7283C7FAC00BD2505 /* TestimonialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BF6283C7FAC00BD2505 /* TestimonialView.swift */; };
+		90E89BF9283C828A00BD2505 /* EarlyAccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BF8283C828A00BD2505 /* EarlyAccessView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		90E89BF2283C73F000BD2505 /* FeatureTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTitleView.swift; sourceTree = "<group>"; };
 		90E89BF4283C7E4D00BD2505 /* FeatureLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureLinkView.swift; sourceTree = "<group>"; };
 		90E89BF6283C7FAC00BD2505 /* TestimonialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestimonialView.swift; sourceTree = "<group>"; };
+		90E89BF8283C828A00BD2505 /* EarlyAccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlyAccessView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				90E89BF2283C73F000BD2505 /* FeatureTitleView.swift */,
 				90E89BF4283C7E4D00BD2505 /* FeatureLinkView.swift */,
 				90E89BF6283C7FAC00BD2505 /* TestimonialView.swift */,
+				90E89BF8283C828A00BD2505 /* EarlyAccessView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				90E89BF7283C7FAC00BD2505 /* TestimonialView.swift in Sources */,
 				90E89BE4283C6C8D00BD2505 /* MenuItemStorage.swift in Sources */,
 				90E89BEC283C6FDF00BD2505 /* HeroFormView.swift in Sources */,
+				90E89BF9283C828A00BD2505 /* EarlyAccessView.swift in Sources */,
 				90E89BCC283C681A00BD2505 /* FyloLandingPageWithTwoColumnLayoutApp.swift in Sources */,
 				90E89BEA283C6F1F00BD2505 /* HeroTitleView.swift in Sources */,
 				90E89BDE283C6B8200BD2505 /* TopNavigationView.swift in Sources */,
