@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HeroView: View {
+struct HeroIllustrationView: View {
     var body: some View {
         Image(decorative: "Illustration0")
             .resizable()
@@ -16,9 +16,9 @@ struct HeroView: View {
     }
 }
 
-struct HeroView_Previews: PreviewProvider {
+struct HeroIllustrationView_Previews: PreviewProvider {
     static var previews: some View {
-        HeroView()
+        HeroIllustrationView()
             .previewLayout(.sizeThatFits)
     }
 }

@@ -15,12 +15,13 @@ struct ContentView: View {
                 VStack(spacing: 100) {
                     TopNavigationView()
                     VStack {
-                        HeroView()
+                        HeroIllustrationView()
                         HeroTitleView()
                         HeroFormView()
                     }
                     VStack {
                         FeatureIllustrationView()
+                        FeatureTitleView()
                     }
                 }
             }
