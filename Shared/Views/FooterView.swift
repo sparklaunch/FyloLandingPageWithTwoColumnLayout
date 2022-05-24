@@ -17,6 +17,7 @@ struct FooterView: View {
                     FooterContactView()
                     FooterEmailView()
                 }
+                FooterAboutView()
             }
             .padding(24)
         }
