@@ -25,8 +25,16 @@ struct ContentView: View {
                         FeatureLinkView()
                         TestimonialView()
                     }
-                    EarlyAccessView()
+                    VStack(spacing: .zero) {
+                        EarlyAccessView()
+                        FooterView()
+                    }
                 }
+                .padding(.top, 44)
+            }
+            .edgesIgnoringSafeArea(.all)
+            .onAppear {
+                UIScrollView.appearance().bounces = false
             }
         }
     }
