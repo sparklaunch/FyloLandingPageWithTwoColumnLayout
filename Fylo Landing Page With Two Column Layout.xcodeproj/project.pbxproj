@@ -18,6 +18,7 @@
 		90E89BE2283C6C0900BD2505 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BE1283C6C0900BD2505 /* MenuItem.swift */; };
 		90E89BE4283C6C8D00BD2505 /* MenuItemStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BE3283C6C8D00BD2505 /* MenuItemStorage.swift */; };
 		90E89BE6283C6D5A00BD2505 /* NavigationMenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BE5283C6D5A00BD2505 /* NavigationMenuItemView.swift */; };
+		90E89BE8283C6EA500BD2505 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BE7283C6EA500BD2505 /* HeroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		90E89BE1283C6C0900BD2505 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		90E89BE3283C6C8D00BD2505 /* MenuItemStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemStorage.swift; sourceTree = "<group>"; };
 		90E89BE5283C6D5A00BD2505 /* NavigationMenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMenuItemView.swift; sourceTree = "<group>"; };
+		90E89BE7283C6EA500BD2505 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				90E89BDD283C6B8200BD2505 /* TopNavigationView.swift */,
 				90E89BDF283C6BEB00BD2505 /* NavigationMenuView.swift */,
 				90E89BE5283C6D5A00BD2505 /* NavigationMenuItemView.swift */,
+				90E89BE7283C6EA500BD2505 /* HeroView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				90E89BCE283C681A00BD2505 /* ContentView.swift in Sources */,
 				90E89BE6283C6D5A00BD2505 /* NavigationMenuItemView.swift in Sources */,
+				90E89BE8283C6EA500BD2505 /* HeroView.swift in Sources */,
 				90E89BE4283C6C8D00BD2505 /* MenuItemStorage.swift in Sources */,
 				90E89BCC283C681A00BD2505 /* FyloLandingPageWithTwoColumnLayoutApp.swift in Sources */,
 				90E89BDE283C6B8200BD2505 /* TopNavigationView.swift in Sources */,

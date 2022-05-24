@@ -14,6 +14,9 @@ struct ContentView: View {
             ScrollView {
                 VStack {
                     TopNavigationView()
+                    Spacer()
+                        .frame(height: 50)
+                    HeroView()
                 }
             }
         }
