@@ -23,6 +23,7 @@ struct ContentView: View {
                         FeatureIllustrationView()
                         FeatureTitleView()
                         FeatureLinkView()
+                        TestimonialView()
                     }
                 }
             }
