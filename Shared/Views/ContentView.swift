@@ -16,7 +16,10 @@ struct ContentView: View {
                     TopNavigationView()
                     Spacer()
                         .frame(height: 50)
-                    HeroView()
+                    VStack {
+                        HeroView()
+                        HeroTitleView()
+                    }
                 }
             }
         }
