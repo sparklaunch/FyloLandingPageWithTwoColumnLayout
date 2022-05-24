@@ -137,27 +137,12 @@
 		90E89BDB283C683A00BD2505 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				90E89C10283C8AE700BD2505 /* EarlyAccess */,
+				90E89C0F283C8AD700BD2505 /* Footer */,
+				90E89C0E283C8ACB00BD2505 /* Feature */,
+				90E89C0D283C8AC100BD2505 /* Hero */,
+				90E89C0C283C8AB200BD2505 /* Navigation */,
 				90E89BBD283C681800BD2505 /* ContentView.swift */,
-				90E89BDD283C6B8200BD2505 /* TopNavigationView.swift */,
-				90E89BDF283C6BEB00BD2505 /* NavigationMenuView.swift */,
-				90E89BE5283C6D5A00BD2505 /* NavigationMenuItemView.swift */,
-				90E89BE7283C6EA500BD2505 /* HeroIllustrationView.swift */,
-				90E89BE9283C6F1F00BD2505 /* HeroTitleView.swift */,
-				90E89BEB283C6FDF00BD2505 /* HeroFormView.swift */,
-				90E89BF0283C735900BD2505 /* FeatureIllustrationView.swift */,
-				90E89BF2283C73F000BD2505 /* FeatureTitleView.swift */,
-				90E89BF4283C7E4D00BD2505 /* FeatureLinkView.swift */,
-				90E89BF6283C7FAC00BD2505 /* TestimonialView.swift */,
-				90E89BF8283C828A00BD2505 /* EarlyAccessView.swift */,
-				90E89BFA283C855E00BD2505 /* FooterView.swift */,
-				90E89BFC283C859A00BD2505 /* FooterLogoView.swift */,
-				90E89BFE283C865100BD2505 /* FooterContactView.swift */,
-				90E89C00283C86D100BD2505 /* FooterEmailView.swift */,
-				90E89C02283C876700BD2505 /* FooterAboutView.swift */,
-				90E89C04283C877E00BD2505 /* SitemapItemView.swift */,
-				90E89C06283C883200BD2505 /* FooterContactUsView.swift */,
-				90E89C08283C88B600BD2505 /* FooterSocialMediaView.swift */,
-				90E89C0A283C88D700BD2505 /* SocialMediaItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +162,61 @@
 				90E89BEE283C70C600BD2505 /* CustomTextFieldStyle.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		90E89C0C283C8AB200BD2505 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				90E89BDD283C6B8200BD2505 /* TopNavigationView.swift */,
+				90E89BDF283C6BEB00BD2505 /* NavigationMenuView.swift */,
+				90E89BE5283C6D5A00BD2505 /* NavigationMenuItemView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		90E89C0D283C8AC100BD2505 /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				90E89BE7283C6EA500BD2505 /* HeroIllustrationView.swift */,
+				90E89BE9283C6F1F00BD2505 /* HeroTitleView.swift */,
+				90E89BEB283C6FDF00BD2505 /* HeroFormView.swift */,
+			);
+			path = Hero;
+			sourceTree = "<group>";
+		};
+		90E89C0E283C8ACB00BD2505 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				90E89BF0283C735900BD2505 /* FeatureIllustrationView.swift */,
+				90E89BF2283C73F000BD2505 /* FeatureTitleView.swift */,
+				90E89BF4283C7E4D00BD2505 /* FeatureLinkView.swift */,
+				90E89BF6283C7FAC00BD2505 /* TestimonialView.swift */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		90E89C0F283C8AD700BD2505 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				90E89BFA283C855E00BD2505 /* FooterView.swift */,
+				90E89BFC283C859A00BD2505 /* FooterLogoView.swift */,
+				90E89BFE283C865100BD2505 /* FooterContactView.swift */,
+				90E89C00283C86D100BD2505 /* FooterEmailView.swift */,
+				90E89C02283C876700BD2505 /* FooterAboutView.swift */,
+				90E89C04283C877E00BD2505 /* SitemapItemView.swift */,
+				90E89C06283C883200BD2505 /* FooterContactUsView.swift */,
+				90E89C08283C88B600BD2505 /* FooterSocialMediaView.swift */,
+				90E89C0A283C88D700BD2505 /* SocialMediaItemView.swift */,
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
+		90E89C10283C8AE700BD2505 /* EarlyAccess */ = {
+			isa = PBXGroup;
+			children = (
+				90E89BF8283C828A00BD2505 /* EarlyAccessView.swift */,
+			);
+			path = EarlyAccess;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

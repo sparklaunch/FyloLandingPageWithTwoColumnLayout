@@ -14,7 +14,6 @@ struct NavigationMenuItemView: View {
             // TODO: NAVIGATION MENU ITEM LINK.
         } label: {
             Text(item.text)
-                .font(.title3)
                 .foregroundColor(.init("AccentBackgroundColor"))
                 .padding(6)
         }
