@@ -20,6 +20,8 @@
 		90E89BE6283C6D5A00BD2505 /* NavigationMenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BE5283C6D5A00BD2505 /* NavigationMenuItemView.swift */; };
 		90E89BE8283C6EA500BD2505 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BE7283C6EA500BD2505 /* HeroView.swift */; };
 		90E89BEA283C6F1F00BD2505 /* HeroTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BE9283C6F1F00BD2505 /* HeroTitleView.swift */; };
+		90E89BEC283C6FDF00BD2505 /* HeroFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BEB283C6FDF00BD2505 /* HeroFormView.swift */; };
+		90E89BEF283C70C600BD2505 /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BEE283C70C600BD2505 /* CustomTextFieldStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		90E89BE5283C6D5A00BD2505 /* NavigationMenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMenuItemView.swift; sourceTree = "<group>"; };
 		90E89BE7283C6EA500BD2505 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
 		90E89BE9283C6F1F00BD2505 /* HeroTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTitleView.swift; sourceTree = "<group>"; };
+		90E89BEB283C6FDF00BD2505 /* HeroFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroFormView.swift; sourceTree = "<group>"; };
+		90E89BEE283C70C600BD2505 /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 		90E89BBB283C681800BD2505 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				90E89BED283C70B500BD2505 /* Utilities */,
 				90E89BDC283C683F00BD2505 /* Models */,
 				90E89BDB283C683A00BD2505 /* Views */,
 				90E89BDA283C683100BD2505 /* App */,
@@ -110,6 +115,7 @@
 				90E89BE5283C6D5A00BD2505 /* NavigationMenuItemView.swift */,
 				90E89BE7283C6EA500BD2505 /* HeroView.swift */,
 				90E89BE9283C6F1F00BD2505 /* HeroTitleView.swift */,
+				90E89BEB283C6FDF00BD2505 /* HeroFormView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -121,6 +127,14 @@
 				90E89BE3283C6C8D00BD2505 /* MenuItemStorage.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		90E89BED283C70B500BD2505 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				90E89BEE283C70C600BD2505 /* CustomTextFieldStyle.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,9 +236,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				90E89BCE283C681A00BD2505 /* ContentView.swift in Sources */,
+				90E89BEF283C70C600BD2505 /* CustomTextFieldStyle.swift in Sources */,
 				90E89BE6283C6D5A00BD2505 /* NavigationMenuItemView.swift in Sources */,
 				90E89BE8283C6EA500BD2505 /* HeroView.swift in Sources */,
 				90E89BE4283C6C8D00BD2505 /* MenuItemStorage.swift in Sources */,
+				90E89BEC283C6FDF00BD2505 /* HeroFormView.swift in Sources */,
 				90E89BCC283C681A00BD2505 /* FyloLandingPageWithTwoColumnLayoutApp.swift in Sources */,
 				90E89BEA283C6F1F00BD2505 /* HeroTitleView.swift in Sources */,
 				90E89BDE283C6B8200BD2505 /* TopNavigationView.swift in Sources */,
