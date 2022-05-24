@@ -30,6 +30,7 @@
 		90E89BFB283C855E00BD2505 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BFA283C855E00BD2505 /* FooterView.swift */; };
 		90E89BFD283C859A00BD2505 /* FooterLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BFC283C859A00BD2505 /* FooterLogoView.swift */; };
 		90E89BFF283C865100BD2505 /* FooterContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BFE283C865100BD2505 /* FooterContactView.swift */; };
+		90E89C01283C86D100BD2505 /* FooterEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89C00283C86D100BD2505 /* FooterEmailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		90E89BFA283C855E00BD2505 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		90E89BFC283C859A00BD2505 /* FooterLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterLogoView.swift; sourceTree = "<group>"; };
 		90E89BFE283C865100BD2505 /* FooterContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterContactView.swift; sourceTree = "<group>"; };
+		90E89C00283C86D100BD2505 /* FooterEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterEmailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				90E89BFA283C855E00BD2505 /* FooterView.swift */,
 				90E89BFC283C859A00BD2505 /* FooterLogoView.swift */,
 				90E89BFE283C865100BD2505 /* FooterContactView.swift */,
+				90E89C00283C86D100BD2505 /* FooterEmailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				90E89BCC283C681A00BD2505 /* FyloLandingPageWithTwoColumnLayoutApp.swift in Sources */,
 				90E89BEA283C6F1F00BD2505 /* HeroTitleView.swift in Sources */,
 				90E89BDE283C6B8200BD2505 /* TopNavigationView.swift in Sources */,
+				90E89C01283C86D100BD2505 /* FooterEmailView.swift in Sources */,
 				90E89BE0283C6BEB00BD2505 /* NavigationMenuView.swift in Sources */,
 				90E89BE2283C6C0900BD2505 /* MenuItem.swift in Sources */,
 				90E89BFD283C859A00BD2505 /* FooterLogoView.swift in Sources */,
