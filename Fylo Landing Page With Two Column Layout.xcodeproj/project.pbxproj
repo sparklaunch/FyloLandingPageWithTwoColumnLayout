@@ -24,6 +24,7 @@
 		90E89BEF283C70C600BD2505 /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BEE283C70C600BD2505 /* CustomTextFieldStyle.swift */; };
 		90E89BF1283C735900BD2505 /* FeatureIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BF0283C735900BD2505 /* FeatureIllustrationView.swift */; };
 		90E89BF3283C73F000BD2505 /* FeatureTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BF2283C73F000BD2505 /* FeatureTitleView.swift */; };
+		90E89BF5283C7E4D00BD2505 /* FeatureLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E89BF4283C7E4D00BD2505 /* FeatureLinkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		90E89BEE283C70C600BD2505 /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
 		90E89BF0283C735900BD2505 /* FeatureIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureIllustrationView.swift; sourceTree = "<group>"; };
 		90E89BF2283C73F000BD2505 /* FeatureTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTitleView.swift; sourceTree = "<group>"; };
+		90E89BF4283C7E4D00BD2505 /* FeatureLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureLinkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				90E89BEB283C6FDF00BD2505 /* HeroFormView.swift */,
 				90E89BF0283C735900BD2505 /* FeatureIllustrationView.swift */,
 				90E89BF2283C73F000BD2505 /* FeatureTitleView.swift */,
+				90E89BF4283C7E4D00BD2505 /* FeatureLinkView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				90E89BCE283C681A00BD2505 /* ContentView.swift in Sources */,
 				90E89BF1283C735900BD2505 /* FeatureIllustrationView.swift in Sources */,
 				90E89BEF283C70C600BD2505 /* CustomTextFieldStyle.swift in Sources */,
+				90E89BF5283C7E4D00BD2505 /* FeatureLinkView.swift in Sources */,
 				90E89BE6283C6D5A00BD2505 /* NavigationMenuItemView.swift in Sources */,
 				90E89BE8283C6EA500BD2505 /* HeroIllustrationView.swift in Sources */,
 				90E89BF3283C73F000BD2505 /* FeatureTitleView.swift in Sources */,

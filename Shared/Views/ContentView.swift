@@ -22,6 +22,7 @@ struct ContentView: View {
                     VStack {
                         FeatureIllustrationView()
                         FeatureTitleView()
+                        FeatureLinkView()
                     }
                 }
             }
